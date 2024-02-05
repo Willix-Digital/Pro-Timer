@@ -1,0 +1,226 @@
+/*!
+=========================================================
+     *FONT
+=========================================================
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.woff2') format('woff2'),
+        url('OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'Code';
+    src: url('Code-Bold.woff2') format('woff2'),
+        url('Code-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Code';
+    src: url('Code-Light.woff2') format('woff2'),
+        url('Code-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/*!
+=========================================================
+     *GENERAL
+=========================================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#EEF5FF ;
+    font-family: 'Code';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formule{
+    font-weight: bold;
+    color: rgb(25, 122, 166);
+    font-size: 25px;
+    text-align: center;
+}
+.colorblue {
+    color: rgb(25, 122, 166);
+}
+.link-text {
+    /*display: none;*/
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/*!
+=========================================================
+     *main
+=========================================================
+*/
+main{
+    height: 1000px;
+    max-width: 1700px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+.timer{
+    height: 680px;
+    width: 890px;
+    max-width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+.affichage{
+    background-image: linear-gradient(to left bottom, #bb7dff, #b06ff4, #a562e9, #9b54de, #9046d3);
+    height: 100%;
+    width: 45%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.affichage h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    z-index: 1;
+}
+#longtxt{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.miniteur{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #9b54de;
+    box-shadow:  20px 20px 60px #8447bd,
+             -20px -20px 60px #b261ff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniteur h1 {
+    color: white;
+    position: relative;
+    font-size: 120px;
+    margin: auto;
+}
+
+.fonction{
+    background-color:#F8EDFF;
+    height: 100%;
+    width: 45%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fonction h1.fonctiontitle {
+    color: #8447bd;
+    font-size: 40px;
+}
+.nexttape{
+    width: 90%;
+    height: 70px;
+    border-radius: 50px;
+    background: #F8EDFF;
+    border: 1px solid #9b54de;
+    border-radius: 50px;
+    background: #F8EDFF;
+    box-shadow:  20px 20px 72px #e9dff0,
+             -20px -20px 72px #fffbff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    color: black;
+    font-size: 15px;
+    cursor:context-menu;
+    }
+
+.n1 {
+    background-color: #DCBFFF ;
+
+}
+
+.n2 {
+    background-color: #FDF0D1;
+}
+
+.n3 {
+    background-color: #CDFADB;
+}
+.n4 {
+    background-color: #BF3131;
+}
+.setting-acces{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.setting-acces i {
+    font-size: 30px;
+    color: #9b54de;
+    cursor: pointer;
+}
+
+
+i.fa-play{
+    font-size: 50px;
+    transition: all 0.1s ease-in-out;
+}
+
+i.fa-pause {
+    font-size: 50px;
+    transition: all 0.1s ease-in-out;
+}
+
+
+/*!
+=========================================================
+     *main
+=========================================================
+*/

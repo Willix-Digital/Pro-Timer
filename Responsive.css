@@ -1,0 +1,34 @@
+@media (max-width: 970px) {
+    .timer{
+        height: 900px;
+        width: 490px;
+        max-width: 100%;
+        margin: auto;
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        background-color:#F8EDFF;
+    }
+    .affichage{
+        background-image: linear-gradient(to left bottom, #bb7dff, #b06ff4, #a562e9, #9b54de, #9046d3);
+        height: 45%;
+        width: 100%;
+        padding: 15px;
+    }
+    .fonction{
+        background-color:#F8EDFF;
+        height: 60%;
+        width: 100%;
+    }
+    .miniteur{
+        height:200px;
+        width: 200px;
+    }
+    .affichage h1 {
+        width: 100%;
+    }
+    #longtxt{
+        width: 100%;
+    }
+}
