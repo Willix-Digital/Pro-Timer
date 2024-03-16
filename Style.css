@@ -206,7 +206,11 @@ main{
     color: #9b54de;
     cursor: pointer;
 }
-
+i.fa-gear{
+    font-size: 30px;
+    transition: all 0.1s ease-in-out;
+    color: black;
+}
 
 i.fa-play{
     font-size: 50px;
@@ -217,7 +221,11 @@ i.fa-pause {
     font-size: 50px;
     transition: all 0.1s ease-in-out;
 }
-
+i.fa-power-off {
+    font-size: 30px;
+    transition: all 0.1s ease-in-out;
+    color: red;
+}
 
 /*!
 =========================================================
